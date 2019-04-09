@@ -1,0 +1,18 @@
+.table_view {
+   margin: 10px 0;
+}
+.table_view .cell {
+   float: left;
+}
+.table_view .row {
+   width: 100%;
+   margin: 5px 0;
+}
+.table_view .lines {
+   border-bottom: 1px solid var(--color-border-default);
+}
+.table_view .row:after {
+   content: "";
+   clear: both;
+   display: table;
+}
